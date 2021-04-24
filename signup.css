@@ -1,6 +1,6 @@
-#box {
+#box2 {
             width: 550px;
-            height: 220px;
+            height: auto;
             background:#f0efef;
             margin:auto;
        border-radius: 30px 30px 30px 30px ;
@@ -19,11 +19,11 @@
 }
 input, textarea {
 
-  background-color :;
+  background-color :white;
 
 }
 #submitbutton {
-  background-color:beige;
+  background-color:#f0efef;
   color: black;
   padding: 10px 20px;
   text-align: center;
