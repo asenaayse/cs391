@@ -1,0 +1,39 @@
+#box1 {
+    width: 800px;
+    height: 450px;
+    background:#f0efef;
+    margin:auto;
+border-radius: 30px 30px 30px 30px ;
+
+}
+#box2{
+width: 550px;
+    height: 220px;
+    background:#f0efef;
+    margin:auto;
+border-radius: 30px 30px 30px 30px ;
+  
+}    
+#button {
+background-color: white;
+color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+    border-radius: 10px 10px 10px 10px;
+}
+    #button:hover {
+  background-color: black;
+  color: white;
+}
+
+    div{
+background-color: DarkGray;
+}
+
+ 
