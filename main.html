@@ -1,70 +1,93 @@
 <!DOCTYPE html>
 <html>
+<meta charset="UTF-8">
 
 <head>
-<meta charset="UTF-8">
 <link rel="stylesheet" href="main.css">
-<title>project_name</title>
-</head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<body>
-<div id="header" >
-<button class="second" type="button" > Main Page </button> 
-<button class="second" type="button" > Horoscopes </button>
-<button class="second" type="button" > Tests </button>
+<div class="navbar">
+    <a href="#home">Main Page</a>
+    <a href="#horoscope">Horoscope</a>
+    <div class="dropdown">
+      <button class="dropbtn">Test
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="#">Which type of cat are you?</a>
+        <a href="#">Which super hero are you?</a>
+        <a href="#">Which HTML5 element are you?</a>
+      </div>
+    </div>
+    <div class="navbar-content-right">
+      <a href="#"><i class="fa fa-fw fa-user"></i> Sign Up</a>
+      <a href="#"><i class="fa fa-fw fa-user"></i> Sign In</a>
+    </div>
+    </div> 
+ </head>
+ 
+ <body>
 
-<button class="first" type="button" > Login </button>
-<button class="first" type="button" > SignIn </button>
+  <div class="advertisements">
+    <img src="trendyol.png" alt="Movies" width="300" height="300"> <br> <br>
+    <img src="algida.png" alt="Movies" width="300" height="400"> <br>
+  </div>
+  
+  
+  <div class="container">
+      <div class="didYouKnow">
+        <h2> Did You Know? </h2>  
+        <img style="margin-left: 20px" src="soru2.png" alt="Movies" width="80" height="80"> 
+        <p style= "font-size: 20px ">  Did you knowM&M's chocolate stands for the initials <br> for its inventors Mars and Murrie </p>
+      </div>
+ 
+  
+      <div class="didYouKnow">
+        <h2> Did You Know? </h2>  
+        <img style="margin-left: 20px" src="https://media.istockphoto.com/vectors/text-did-you-know-in-comic-speech-bubble-vector-id614418492" width="80" height="80"> 
+        <p style= "font-size: 20px ">  Ralph Lauren's original name was Ralph Lifshitz</p>
+      </div>
+    
+  </div>
 
-<br>
-<br>
-<img class="mainimg" src="burç.png" alt="Horoscope" width="100" height="150">
-<img class="mainimg" src="burç.png" alt="Horoscope" width="100" height="150">
-<img class="mainimg" src="soru.png" alt="QuestionMark" width="100" height="150">
-
-</div>
-
-<div id="middle">
-<div id="col1">
-<div class= "news">
-<img class="news_image" src="kızkulesi.png" alt="KızKulesi" width="100" height="150">
-<p>Places You Should Visit in İstanbul After the Pandemic</p>
-</div>
-<div class ="news">
-<img class="news_image" src="top10.png" alt="Movies" width="100" height="150">
-<p>Top 10 Movies You Should Watch Before You Die </p>
-</div>
-</div>
-
-<div id="col2">
-
-<div id="did_you_know" class="news">
-<p> Did You Know? </p>
-<p style= "font-size: 20px ">  Did you knowM&M's chocolate stands for the initials for its inventors Mars and Murrie </p>
-<img style="margin-left: 150px" src="soru2.png" alt="Movies" width="100" height="150">
-</div>
-
-</div>
-
-<div id="col3">
-<img id="advertisement" src="snickers.png" alt="Movies" width="400" height="440">
-</div>
-
-</div> 
-
-
-
-<div id="footer">
-<p style= "float:left" > Our Team </p>
-<img class="footerimg" src="insta.png" alt="Movies" width="40" height="40">
-<img class="footerimg" src="twitter.png" alt="Movies" width="40" height="40">
-<img class="footerimg" src="facebook.png" alt="Movies" width="40" height="40">
-</div>
+  <class="line">
+    <div class="contents">
+       <div class="image"><img src="https://i.pinimg.com/736x/e8/d9/90/e8d990c0b941ac2f64c39f19a92a777e.jpg" alt="image" width="140" height="180" ></div>
+       <a href=""><h2>Places You Should Visit in İstanbul After the Pandemic</h2></a>
+       <p style= "font-size: 20px  ">If you want to take beatiful pictures in İstanbul, you should visit those places </p>
+    </div>
+     <div class="contents">
+       <div class="image"><img src="https://sgaconnections.com/wp-content/uploads/2020/02/JSL-movie-night.png" width="160" height="170" alt="image2"></div>
+       <a href=""><h2>Top 10 Movies You Should Watch Before You Die</h2></a>
+       <p style= "font-size: 20px ">If you bored to stay at home due to covid, you should look these movies.</p>
+    </div>
+     <div class="contents">
+       <div class="image"><img src="https://image.winudf.com/v2/image1/Y29tLmNhcmtiaWxpc2ltLnJlYWxjb2ZmZWVmb3J0dW5lX3NjcmVlbl83XzE1NjMyODMxNjNfMDU2/screen-7.jpg?fakeurl=1&type=.jpg" width="140" height="170" alt="image3"></div>
+       <a href=""><h2>Horoscope</h2></a>
+       <p style= "font-size: 20px ">Do you believe fate? Check out the horoscope written by expert fortune tellers.</p>
+    </div>
+     <div class="contents">
+       <div class="image"><img src="https://testcreative.co.uk/wp-content/uploads/2018/08/logo.png" width="160" height="170" alt="image4"></div>
+       <a href=""><h2>Tests</h2></a>
+       <p style= "font-size: 20px "> Dou you want to know more about yourself? Check out these enjoyable tests.</p>
+    </div>
+  </class>
 
 
-
+  <div class="textwidget" style="display: flex;width: 99%; color:blue;">
+    <footer class="social-footer">
+      <div class="social-footer-left">
+        <a href="#"> <img class="logo" src="Ekran görüntüsü 2021-04-28 223218.png" width="40" height="40"></a>
+        <a href="#">About Us <i></a>
+      </div>
+      <div class="social-footer-icons">
+          <a href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+          <a href="https://www.instagram.com/?hl=en"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+          <a href="https://www.pinterest.com/"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
+          <a href="https://twitter.com/?lang=en"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+      </div>
+    </footer>
+   </div>   
 
 </body>
-
-
 </html>
