@@ -3,9 +3,14 @@
 <meta charset="UTF-8">
 
 <head>
+  <script>
+   document.addEventListener('readystatechange', () => {    
+  if (document.readyState == 'complete')setUser() ;
+});
+ </script>
 <link rel="stylesheet" href="main.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+ <script src="signin.js"></script>
 <div class="navbar">
     <a href="#home">Main Page</a>
     <a href="#horoscope">Horoscope</a>
@@ -19,39 +24,28 @@
         <a href="#">Which HTML5 element are you?</a>
       </div>
     </div>
-    <div class="navbar-content-right">
-      <a href="#"><i class="fa fa-fw fa-user"></i> Sign Up</a>
-      <a href="#"><i class="fa fa-fw fa-user"></i> Sign In</a>
+    <div id="navbar-content-right">
+ 
     </div>
     </div> 
  </head>
  
- <body>
-
-  <div class="advertisements">
-    <img src="trendyol.png" alt="Movies" width="300" height="300"> <br> <br>
-    <img src="algida.png" alt="Movies" width="300" height="400"> <br>
-  </div>
+ <body>  
   
-  
-  <div class="container">
+  <div class="column">
       <div class="didYouKnow">
         <h2> Did You Know? </h2>  
         <img style="margin-left: 20px" src="soru2.png" alt="Movies" width="80" height="80"> 
-        <p style= "font-size: 20px ">  Did you knowM&M's chocolate stands for the initials <br> for its inventors Mars and Murrie </p>
+        <p style= "font-size: 20px ">  Did you know M&M's chocolate stands for the initials <br> for its inventors Mars and Murrie </p>
       </div>
  
   
       <div class="didYouKnow">
         <h2> Did You Know? </h2>  
         <img style="margin-left: 20px" src="https://media.istockphoto.com/vectors/text-did-you-know-in-comic-speech-bubble-vector-id614418492" width="80" height="80"> 
-        <p style= "font-size: 20px ">  Ralph Lauren's original name was Ralph Lifshitz</p>
+        <p >  Ralph Lauren's original name was Ralph Lifshitz</p>
       </div>
-    
-  </div>
-
-  <class="line">
-    <div class="contents">
+       <div class="contents">
        <div class="image"><img src="https://i.pinimg.com/736x/e8/d9/90/e8d990c0b941ac2f64c39f19a92a777e.jpg" alt="image" width="140" height="180" ></div>
        <a href=""><h2>Places You Should Visit in İstanbul After the Pandemic</h2></a>
        <p style= "font-size: 20px  ">If you want to take beatiful pictures in İstanbul, you should visit those places </p>
@@ -71,14 +65,24 @@
        <a href=""><h2>Tests</h2></a>
        <p style= "font-size: 20px "> Dou you want to know more about yourself? Check out these enjoyable tests.</p>
     </div>
-  </class>
+  
 
 
-  <div class="textwidget" style="display: flex;width: 99%; color:blue;">
+     </div>
+     
+     <div class="columnr">
+    <div class="advertisements">
+    <img src="trendyol.png" alt="Movies" width="300" height="300"> <br> <br>
+    <img src="algida.png" alt="Movies" width="300" height="400"> <br>
+  </div>
+     </div>
+
+
+  <div class="textwidget" >
     <footer class="social-footer">
       <div class="social-footer-left">
         <a href="#"> <img class="logo" src="Ekran görüntüsü 2021-04-28 223218.png" width="40" height="40"></a>
-        <a href="#">About Us <i></a>
+        <a href="#">About Us</a>
       </div>
       <div class="social-footer-icons">
           <a href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a>

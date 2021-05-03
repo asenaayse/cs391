@@ -1,6 +1,6 @@
 .navbar {
   width: 100%;
-  background-color:rgb(46, 60, 66);
+  background-color:rgb(42, 124, 231);
   overflow: auto;
 }
 
@@ -12,7 +12,7 @@
   text-decoration: none;
   font-size: 17px;
 }
-.navbar-content-right {
+#navbar-content-right {
   padding-right:40px;
   float:right;
 }
@@ -80,40 +80,47 @@
 }
 body{
   background: url("https://www.teahub.io/photos/full/252-2521912_disney-pixar-up-wallpaper-25601440-up-wallpaper-up.jpg" );
-  background-size:100%;
+  background-size:100% 1300px;
   background-repeat: no-repeat;
   width: 100%;
   height: 100%;
- 
- 
 
+}
+.column{
+  float: left;
+  width: 72%;
+}
+.columnr{
+  float: right;
+  width:25%;
+  margin-right: 20px;
+  margin-top:20px;
+}
+.row:after{
+  content: "";
+  display: table;
+  clear: both;
 }
 .advertisements{
 float: right;
-
 margin-top: 80px;
 margin-left: 500px;
 
 }
 
-.container{
-
-flex-direction: row;
-display: inline-flex;
-}
-
 .didYouKnow{
+width: 50%;
 margin-left: 20px;
+margin-top:20px;
 background-color:#f0efef;
 border-color: black;
 border-style: solid;
 border-width: 5px; 
 border-radius: 10%;
+font-size: 20px;
+    padding-left:1%;
 }
 
-.content{
-margin-top: 250px;
-}
 .line{
 margin-top: 40px;
 }
@@ -134,9 +141,21 @@ height: 180px;
 padding: 5px;
 box-sizing:border-box;
 }
+.textwidget{
+    display: flex;
+    width: 99%; 
+    color:blue;
+    position: fixed;
+    bottom:0
+}
+.navbar {
+  width: 100%;
+  background-color:rgb(42, 124, 231);
+  overflow: auto;
+}
 .social-footer {
 padding: 0.5rem;
-background: rgb(46, 60, 66);;
+background: rgb(42,124,231);;
 width: 100%;
 overflow: auto;
 display: -webkit-flex;

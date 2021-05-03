@@ -1,18 +1,40 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="signup.css">
+     <script>
+   document.addEventListener('readystatechange', () => {    
+  if (document.readyState == 'complete')setUser() ;
+});
+ </script>
+    <link rel="stylesheet" href="signInUpCommon.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <script src="signin.js"></script>
+    <div class="navbar">
+      <a href="#home">Main Page</a>
+      <a href="#horoscope">Horoscope</a>
+      <div class="dropdown">
+        <button class="dropbtn">Test
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#">Which type of cat are you?</a>
+          <a href="#">Which super hero are you?</a>
+          <a href="#">Which HTML5 element are you?</a>
+        </div>
+      </div>
+      <div id="navbar-content-right">
+    
+      </div>
+      </div> 
 </head>
 <body>
-
-    <div style="background-image: url('https://pyxis.nymag.com/v1/imgs/223/245/1fad08eb02002b671765243424672d2809-tarot-cards.2x.rsocial.w600.jpg'); background-attachment: fixed; background-repeat:repeat;
-  height:auto; text-align: center;">
-<div id="box2">
-        <h1 style="font-size:100px; color:blac; margin:10px;">Sign Up</h1>
-        <img src="https://media.istockphoto.com/photos/fortune-teller-with-glowing-crystal-ball-xxxl-picture-id157524516?k=6&m=157524516&s=612x612&w=0&h=Z8igp62VQuF738U8Q8qFuNVgsLg33NbU0XRePIpcxEk=" style="height:150px; border-radius: 50%; border: 10px solid #FEDE00;">
-
+<div id="box">
+  <h1 style="font-size:80px; color:rgb(42,124,231); margin:10px;margin-left: 60px;padding-left: 20px;">Sign Up</h1>
+  <img src="https://previews.123rf.com/images/faysalfarhan/faysalfarhan1711/faysalfarhan171117332/89428342-sign-up-member-icon-isolated-on-special-cyan-blue-round-button-abstract-illustration.jpg" style="height:100px; border-radius: 50%;margin-left: 160px ;border: 10px solid rgb(42,124,231);">
+  
 <div id="signup">
-    <form method="post" action="">
+  <br>
+    <form method="post" style="font-size:30px; color:rgb(42,124,231);">
     Name: <input name="username" type="text" placeholder="Enter your username" required style="font-size: 25px" minlength = "4" maxlength="10" > <br>
     Email: <input type ="email" name="email" placeholder="Enter your email adress" required style="font-size: 25px" > <br>
     Password: <input type="password" name="password1" placeholder="Enter your password" required style="font-size: 25px" minlength="6" maxlength="15" > <br>
@@ -20,12 +42,27 @@
     Birthday: <input type="date" name="birtday" style="font-size: 25px" > <br>
     Gender Identity: Female<input type="radio" name="gender" value="fema9e" style="font-size: 25px" checked="checked">
     &#160;  Male<input type="radio" style="font-size: 25px" name="gender" value="male">
-    <br><br>
-    <input type=checkbox required name="agreement" >I accept the agreement. <br><br>
-        <input type="submit" id="submitbutton" style="font-size: 30px" value="Submit">
+    <br>
+    <input type=checkbox required name="agreement" >I accept the agreement. <br>
+        <input type="submit" id="submitbutton" value="Submit">
     </form></div>
+    </div>
 
-    </div></div>
+    <div class="textwidget" style="display: flex;width: 99%;position:relative;bottom: 0px;">
+      <footer class="social-footer">
+        <div class="social-footer-left">
+          <a href="#"> <img class="logo" src="Ekran görüntüsü 2021-04-28 223218.png" width="40" height="40"></a>
+          <a href="#">About Us </a>
+        </div>
+        <div class="social-footer-icons">
+            <a href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href="https://www.instagram.com/?hl=en"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href="https://www.pinterest.com/"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
+            <a href="https://twitter.com/?lang=en"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+        </div>
+      </footer>
+     </div>   
+  
 </body>
 
 </html>
