@@ -9,8 +9,8 @@ function setUser() {
        
     }else {
     document.getElementById("navbar-content-right").innerHTML=
-    " <a href=#><i class=fa fa-fw fa-user></i> Sign Up</a> "+
-    " <a href=#><i class=fa fa-fw fa-user></i> Sign In</a> "
+    ' <a href="signup.html"><i class=fa fa-fw fa-user></i> Sign Up</a> '+
+    ' <a href="signin.html"><i class=fa fa-fw fa-user></i> Sign In</a> '
     }
 }
 
