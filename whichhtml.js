@@ -4,7 +4,6 @@ function displayRadioValue(){
     var q3=document.getElementsByName('Q3');
     var q4=document.getElementsByName('Q4');
     var q5=document.getElementsByName('Q5');
-    var q6=document.getElementsByName('Q6');
     var storeanswer= [0,0,0,0,0,0,0,0];
     if(q1[0].checked){
         storeanswer[1]+=30;
@@ -29,45 +28,36 @@ function displayRadioValue(){
         storeanswer[0]+=10;
         storeanswer[4]+=40;
     }
+  
     if(q3[0].checked){
-        storeanswer[0]+=50;
-        storeanswer[7]+=40;
-    }else if(q3[1].checked){
-        storeanswer[4]+=40;
-    } else if(q3[2].checked){
-        storeanswer[3]+=10;
-    }else if(q3[3].checked){
-        storeanswer[3]+=10;
-    }
-    if(q4[0].checked){
         storeanswer[5]+=40;
         storeanswer[6]+=30;
-    }else if(q4[1].checked){
+    }else if(q3[1].checked){
         storeanswer[2]+=50;
-    } else if(q4[2].checked){
+    } else if(q3[2].checked){
         storeanswer[1]+=10;
         storeanswer[3]+=40;
-    }else if(q4[3].checked){
+    }else if(q3[3].checked){
         storeanswer[5]+=40;
     }
-    if(q5[0].checked){
+    if(q4[0].checked){
         storeanswer[4]+=50;
-    }else if(q5[1].checked){
+    }else if(q4[1].checked){
         storeanswer[1]+=40;
         storeanswer[3]+=30;
-    } else if(q5[2].checked){
+    } else if(q4[2].checked){
         storeanswer[6]+=50;
-    }else if(q5[3].checked){
+    }else if(q4[3].checked){
         storeanswer[5]+=45;
     }
-    if(q6[0].checked){
+    if(q5[0].checked){
         storeanswer[6]+=40;
-    }else if(q6[1].checked){
+    }else if(q5[1].checked){
         storeanswer[1]+=30;
         storeanswer[3]+=40;
-    } else if(q6[2].checked){
+    } else if(q5[2].checked){
         storeanswer[4]+=50;
-    }else if(q6[3].checked){
+    }else if(q5[3].checked){
         storeanswer[4]+=30;
         storeanswer[5]+=30;
         storeanswer[7]+=20;
