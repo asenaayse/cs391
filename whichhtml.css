@@ -1,0 +1,121 @@
+
+.navbar a {
+    float: left;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  #navbar-content-right {
+    padding-right:40px;
+    float:right;
+  }
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover {
+    background-color: #000;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+    .icon-style {
+      height:40px;
+      margin-left:20px;
+      margin-top:5px;
+    }
+    
+    .icon-style:hover {
+      background-color:rgb(42, 124, 231);
+      padding:5px;
+    }
+  
+  }
+  .ftitle {
+    color:red;
+    font-family:Arial;
+    font-weight: bold;
+    text-indent:20px;
+    font-size:20px;
+}
+body{
+    background: url("https://wallpaperaccess.com/full/58366.jpg" );
+    background-size:auto 3500px;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+   
+  }
+  .navbar {
+    width: 100%;
+    background-color:rgb(42, 124, 231);
+    overflow: auto;
+  }
+  
+  .social-footer {
+  padding: 0.5rem;
+  background: rgb(42, 124, 231);
+  width: 100%;
+  overflow: auto;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  }
+  
+  .social-footer .social-footer-icons .fa {
+  font-size: 1.3rem;
+  color: #fefefe;
+  }
+  
+  .social-footer .social-footer-icons .fa:hover {
+  color: #4a4a4a;
+  transition: color 0.3s ease-in;
+  }
