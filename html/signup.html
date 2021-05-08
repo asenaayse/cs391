@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script>
+   document.addEventListener('readystatechange', () => {    
+  if (document.readyState == 'complete')setUser() ;
+});
+ </script>
+ <title>Sign Up</title>
+     <script src="../js/signin.js"></script>
+<link rel="stylesheet" href="../css/signInUpCommon.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="navbar">
+    <a href="main.html">Main Page</a>
+    <a href="horoscope.html">Horoscope</a>
+    <div class="dropdown">
+      <button class="dropbtn">Test
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="whichcat.html">Which type of cat are you?</a>
+        <a href="whichmarvel.html">Which super hero are you?</a>
+        <a href="whichhtml.html">Which HTML5 element are you?</a>
+      </div>
+    </div>
+    <div id="navbar-content-right">
+
+    </div>
+    </div> 
+ </head>
+<body>
+<div id="box">
+  <h1 style="font-size:80px; color:rgb(42,124,231); margin:10px;margin-left: 60px;padding-left: 20px;">Sign Up</h1>
+  <img src="https://previews.123rf.com/images/faysalfarhan/faysalfarhan1711/faysalfarhan171117332/89428342-sign-up-member-icon-isolated-on-special-cyan-blue-round-button-abstract-illustration.jpg" style="height:100px; border-radius: 50%;margin-left: 160px ;border: 10px solid rgb(42,124,231);">
+  
+<div id="signup">
+  <br>
+    <form method="post" style="font-size:30px; color:rgb(42,124,231);">
+    Name: <input name="username" type="text" placeholder="Enter your username" required style="font-size: 25px" minlength = "4" maxlength="10" > <br>
+    Email: <input type ="email" name="email" placeholder="Enter your email adress" required style="font-size: 25px" > <br>
+    Password: <input type="password" name="password1" placeholder="Enter your password" required style="font-size: 25px" minlength="6" maxlength="15" > <br>
+    Re-enter Your Password: <input type="password" name="password2" placeholder="Re-enter your password" required minlength="6" maxlength="15" style="font-size: 25px"> <br>
+    Birthday: <input type="date" name="birtday" style="font-size: 25px" > <br>
+    Gender Identity: Female<input type="radio" name="gender" value="fema9e" style="font-size: 25px" checked="checked">
+    &#160;  Male<input type="radio" style="font-size: 25px" name="gender" value="male">
+    <br>
+    <input type=checkbox required name="agreement" >I accept the agreement. <br>
+        <input type="submit" id="submitbutton" value="Submit">
+    </form></div>
+    </div>
+
+    <div class="textwidget" style="display: flex;width: 99%;position:relative;bottom: 0px;">
+      <footer class="social-footer">
+        <div class="social-footer-left">
+          <a href="main.html"> <img class="logo" src="../images/logo.png" width="40" height="40"></a>
+          <a href="ourteam.html">About Us </a>
+        </div>
+        <div class="social-footer-icons">
+            <a href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href="https://www.instagram.com/?hl=en"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href="https://www.pinterest.com/"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
+            <a href="https://twitter.com/?lang=en"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+        </div>
+      </footer>
+     </div>   
+  
+</body>
+
+</html>

@@ -1,0 +1,141 @@
+<html>
+    <head>
+         <script>
+   document.addEventListener('readystatechange', () => {    
+  if (document.readyState == 'complete')setUser() ;
+  if (document.readyState == 'complete')textapproval() ;
+});
+ </script>
+ 
+ 
+        <title>Which Marvel Hero?</title>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="../css/whichhtml.css" />
+        <script src="../js/whichmarvel.js"></script>
+  
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+         <script src="../js/signin.js"></script>
+        <div class="navbar">
+          <a href="main.html">Main Page</a>
+          <a href="horoscope.html">Horoscope</a>
+          <div class="dropdown">
+            <button class="dropbtn">Test
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="whichcat.html">Which type of cat are you?</a>
+              <a href="whichmarvel.html">Which Marvel hero are you?</a>
+              <a href="whichhtml.html">Which HTML5 element are you?</a>
+            </div>
+          </div>
+          <div id="navbar-content-right">
+         
+          </div>
+          </div> 
+       </head>
+       <body>
+        <div id="textarea"></div>
+        <script id="latersignintext" type="text/html">
+<p class="ftitle">Which Marvel Hero are you ?</p>
+<br>
+<img src="../images/motivation.jpeg" width="400" length="1000">
+
+<p class="question">1.What motivates you most in your life? ?</p>
+<input type="radio" name="Q1">Fairness
+<input type="radio" name="Q1">Success
+<input type="radio" name="Q1">Adrenalin 
+<input type="radio" name="Q1">Revenge
+<br>
+
+<br><br>
+<img src="../images/describe.png" width="400" length="1000">
+<p class="question">2. How would you describe yourself ?</p>
+<input type="radio" name="Q2">Charming
+<input type="radio" name="Q2">Old Fashioned
+<input type="radio" name="Q2">Funny
+<input type="radio" name="Q2">Succesful
+<br>
+
+<br><br>
+<img src="../images/specific.png" width="400" length="1000">
+<p class="question">3.Which one are you more prone to ?</p>
+<input type="radio" name="Q3">Leader <br>
+<input type="radio" name="Q3">Great Team Player <br>
+<input type="radio" name="Q3">A Lone Wolf <br>
+<input type="radio" name="Q3">Depends a Need
+<br>
+
+
+
+
+<br><br>
+<img src="../images/scare.png" width="400" length="1000">
+ <p class="question">4. What scares you most ?</p>
+<input type="radio" name="Q4">Fail in a given job
+<br>
+<input type="radio" name="Q4">Stand Alone
+<br>
+<input type="radio" name="Q4">Be criticized by people
+<br>
+<input type="radio" name="Q4">I do not afraid
+<br>
+
+<br><br>
+<img src="../images/help.png" width="400" length="1000">
+<p class="question">5.You realized that someone you don't know needs help, what do you do? ?</p>
+<input type="radio" name="Q5">I do not care
+<br>
+<input type="radio" name="Q5">I help without thinking
+<br>
+<input type="radio" name="Q5">I wait for others to help
+<br>
+<input type="radio" name="Q5">I may help but not sure
+<br>
+
+<br><br>
+<img src="../images/power.png" width="400" length="1000">
+<p class="question">6.Which do you think is most important ?</p>
+<input type="radio" name="Q6">Physical Strength
+<br>
+<input type="radio" name="Q6">Unique Equipments
+<br>
+<input type="radio" name="Q6">Fight Ability
+<br>
+
+
+
+
+
+
+
+<br>
+<button type="button" onclick="displayRadioValue()">
+    Submit
+</button>
+  
+<br><br><br>
+
+<div id="result"></div>
+  
+
+
+</script>
+<div class="textwidget" style="display: flex;width: 99%;position:relative;bottom: 0px;">
+    <footer class="social-footer">
+      <div class="social-footer-left">
+        <a href="main.html"> <img class="logo" src="../images/logo.png" width="40" height="40"></a>
+        <a href="ourteam.html">About Us <i></a>
+      </div>
+      <div class="social-footer-icons">
+          <a href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+          <a href="https://www.instagram.com/?hl=en"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+          <a href="https://www.pinterest.com/"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
+          <a href="https://twitter.com/?lang=en"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+      </div>
+    </footer>
+   </div>   
+
+  
+
+</body>
+</html>
