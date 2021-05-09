@@ -13,6 +13,13 @@ Our project, Makee, is a website having fun contents and making people have a go
 <img width="732" alt="Screen Shot 2021-05-09 at 20 13 48" src="https://user-images.githubusercontent.com/79649708/117581372-11695280-b105-11eb-9fc4-1f2c9eff6d27.png">
 <img width="732" alt="Screen Shot 2021-05-09 at 20 14 01" src="https://user-images.githubusercontent.com/79649708/117581374-1201e900-b105-11eb-8a88-c39d2d7056e3.png">
 
+## MEMBERS
+
+Asena Ayse Gevsek               
+Kaan Apak       
+Ezgi Maden   
+Ecenur Kamburoglu       
+Muratcan Kilicci
 
 ## WORK SHARING 
 
