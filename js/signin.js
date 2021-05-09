@@ -1,4 +1,5 @@
 function useradd(){
+    if(localStorage){
     var result=checkuser();
 if(result!==null){
     localStorage.setItem("userin",JSON.stringify(result));
@@ -6,13 +7,18 @@ if(result!==null){
 }else{
     alert("There is no user, with this username/password");
 }
+    }else {
+        alert("Please give acsess to local storage");
+    }
 }
 function setUser() {
     if(localStorage.getItem("userin")!==null){
+        if(localStorage){
         var myuser=JSON.parse(localStorage.getItem("userin"));
         document.getElementById("navbar-content-right").innerHTML=
         ' <a href="mypage.html"><i class=fa fa-fw fa-user></i> '+myuser.name+'</a> '+
         " <a  onclick=userout() ><i class=fa fa-fw fa-user  ></i> Sign Out</a> "
+        }
        
     }else {
     document.getElementById("navbar-content-right").innerHTML=
@@ -28,6 +34,7 @@ window.location.reload(false);
 }
 
 function textapproval(){
+    if(localStorage){
     if(localStorage.getItem("userin")==null){
         document.getElementById("textarea").innerHTML=
         " <br> <br> Please sign in first ! <br>"  +
@@ -39,6 +46,9 @@ function textapproval(){
         var myHtml = document.getElementById('latersignintext').innerHTML;
         document.getElementById("textarea").innerHTML= myHtml;
     }
+}else{
+    document.getElementById("textarea").innerHTML= "Please give acsess to local storage and sign in!";
+}
 }
 
 function checkuser(){

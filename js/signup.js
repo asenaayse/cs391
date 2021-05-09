@@ -1,4 +1,5 @@
 function usercreate(){
+    if(localStorage){
    var username=document.getElementById("username").value;
    var password=document.getElementById("password1").value;
    var password2=document.getElementById("password2").value;
@@ -53,6 +54,8 @@ function usercreate(){
     
 
  }
-
+    }else{
+        alert("Please give acsess to local storage");
+    }
 }
 
