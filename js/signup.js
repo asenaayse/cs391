@@ -2,6 +2,7 @@ function usercreate(){
    var username=document.getElementById("username").value;
    var password=document.getElementById("password1").value;
    var password2=document.getElementById("password2").value;
+   var email= document.getElementById("email").value;
  if(password!==password2){
      alert("Please enter same password twice ");
  }else{
@@ -16,14 +17,18 @@ function usercreate(){
        gender="male";
    }
    
-    var user={"name":username,"password":password,"email":document.getElementById("email").value,"birthday":document.getElementById("birthday").value,"gender":gender,"horoscope":horoscope};
+    var user={"name":username,"password":password,"email":email,"birthday":document.getElementById("birthday").value,"gender":gender,"horoscope":horoscope};
     if(localStorage.getItem("userlist")!==null){
         var myuserlist=JSON.parse(localStorage.getItem("userlist"));
         var usercount=0;
     for (let i=0;i<myuserlist.length;i++){
        if (username == myuserlist[i].name){
            usercount++;
-           alert("There is another user using same username")
+           alert("There is another user using same username");
+       }
+       else if(email == myuserlist[i].email){
+           usercount++;
+           alert("There is another user using same email");
        }
     }
     if(usercount==0){
@@ -45,6 +50,7 @@ function usercreate(){
      
    
     }
+    
 
  }
 
