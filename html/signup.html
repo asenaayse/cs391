@@ -8,6 +8,7 @@
  </script>
  <title>Sign Up</title>
      <script src="../js/signin.js"></script>
+     <script src="../js/signup.js"></script>
 <link rel="stylesheet" href="../css/signInUpCommon.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -34,19 +35,34 @@
   <h1 style="font-size:80px; color:rgb(42,124,231); margin:10px;margin-left: 60px;padding-left: 20px;">Sign Up</h1>
   <img src="https://previews.123rf.com/images/faysalfarhan/faysalfarhan1711/faysalfarhan171117332/89428342-sign-up-member-icon-isolated-on-special-cyan-blue-round-button-abstract-illustration.jpg" style="height:100px; border-radius: 50%;margin-left: 160px ;border: 10px solid rgb(42,124,231);">
   
-<div id="signup">
+<div id="signup"  >
   <br>
-    <form method="post" style="font-size:30px; color:rgb(42,124,231);">
-    Name: <input name="username" type="text" placeholder="Enter your username" required style="font-size: 25px" minlength = "4" maxlength="10" > <br>
-    Email: <input type ="email" name="email" placeholder="Enter your email adress" required style="font-size: 25px" > <br>
-    Password: <input type="password" name="password1" placeholder="Enter your password" required style="font-size: 25px" minlength="6" maxlength="15" > <br>
-    Re-enter Your Password: <input type="password" name="password2" placeholder="Re-enter your password" required minlength="6" maxlength="15" style="font-size: 25px"> <br>
-    Birthday: <input type="date" name="birtday" style="font-size: 25px" > <br>
-    Gender Identity: Female<input type="radio" name="gender" value="fema9e" style="font-size: 25px" checked="checked">
+    <form method="post" action="mypage.html" style="font-size:30px; color:rgb(42,124,231);">
+    Name: <input id="username" type="text" placeholder="Enter your username" required style="font-size: 25px" minlength = "4" maxlength="10" > <br>
+    Email: <input type ="email" id="email" placeholder="Enter your email adress" required style="font-size: 25px" > <br>
+    Password: <input type="password" id="password1" placeholder="Enter your password" required style="font-size: 25px" minlength="6" maxlength="15" > <br>
+    Re-enter Your Password: <input type="password" id="password2"  placeholder="Re-enter your password" required minlength="6" maxlength="15" style="font-size: 25px"> <br>
+    Birthday: <input type="date" id="birthday" style="font-size: 25px" > <br>
+    Gender Identity: Female<input type="radio" name="gender" value="female" style="font-size: 25px" checked="checked">
     &#160;  Male<input type="radio" style="font-size: 25px" name="gender" value="male">
-    <br>
+   <br>
+    Horoscope: <select id="horoscope"  required style="font-size: 25px" size="4" > 
+      <option value="1">Aries</option>
+      <option value="2">Taurus</option>
+      <option value="3">Gemini</option>
+      <option value="4">Cancer</option>
+      <option value="5">Leo</option>
+      <option value="5">Virgo</option>
+      <option value="5">Libra</option>
+      <option value="5">Scorpio</option>
+      <option value="5">Sagittarius</option>
+      <option value="5">Caprcicorn</option>
+      <option value="5">Aquarius</option>
+      <option value="5">Pisces</option>
+      </select>
+      <br>
     <input type=checkbox required name="agreement" >I accept the agreement. <br>
-        <input type="submit" id="submitbutton" value="Submit">
+        <input onclick="usercreate()" type="submit" id="submitbutton" value="Submit">
     </form></div>
     </div>
 

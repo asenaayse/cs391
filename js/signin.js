@@ -1,10 +1,17 @@
 function useradd(){
-   localStorage.setItem("userin",document.getElementById("username").value);
+    var result=checkuser();
+if(result!==null){
+    localStorage.setItem("userin",JSON.stringify(result));
+    
+}else{
+    alert("There is no user, with this username/password");
+}
 }
 function setUser() {
     if(localStorage.getItem("userin")!==null){
+        var myuser=JSON.parse(localStorage.getItem("userin"));
         document.getElementById("navbar-content-right").innerHTML=
-        " <a href=#><i class=fa fa-fw fa-user></i> "+localStorage.getItem("userin")+"</a> "+
+        ' <a href="mypage.html"><i class=fa fa-fw fa-user></i> '+myuser.name+'</a> '+
         " <a  onclick=userout() ><i class=fa fa-fw fa-user  ></i> Sign Out</a> "
        
     }else {
@@ -33,3 +40,23 @@ function textapproval(){
         document.getElementById("textarea").innerHTML= myHtml;
     }
 }
+
+function checkuser(){
+    var username=document.getElementById("username").value;
+    var password=document.getElementById("password").value;
+    var myuserlist=JSON.parse(localStorage.getItem("userlist"));
+    var user;
+    var usercount=0;
+    for (let i=0;i<myuserlist.length;i++){
+       if (username == myuserlist[i].name && password == myuserlist[i].password){
+           usercount++;
+           user=myuserlist[i];
+       }
+    }
+    if(usercount>0){
+        return user;
+    }else{
+        return null;
+    }
+    
+ }
