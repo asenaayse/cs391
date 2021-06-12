@@ -2,6 +2,13 @@
 
 ## USE CASE DIAGRAM
 ![image](https://user-images.githubusercontent.com/80036646/121782821-275ead00-cbb4-11eb-82a8-3f4edb0a1d9a.png)
+![image](https://user-images.githubusercontent.com/80036646/121782841-40675e00-cbb4-11eb-9760-8ecf8ce32945.png)
+![image](https://user-images.githubusercontent.com/80036646/121782861-537a2e00-cbb4-11eb-93bd-8a9c6234c601.png)
+![image](https://user-images.githubusercontent.com/80036646/121782867-5bd26900-cbb4-11eb-9c24-2e1145374094.png)
+![image](https://user-images.githubusercontent.com/80036646/121782882-6a208500-cbb4-11eb-807e-86b1ac634d8c.png)
+![image](https://user-images.githubusercontent.com/80036646/121782897-7efd1880-cbb4-11eb-9f29-7887a360f86b.png)
+
+
 
 
 ## PURPOSE 
