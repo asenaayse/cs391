@@ -35,7 +35,7 @@ Learn My Sign  Page,"How to Run" at Read_Me, Organizing CSS
 
 
 #### Kaan Apak
-Creating Test Pages ( 3 Test Page and Test Selecting Page),Teams Page  
+Creating Test Pages ( 3 Test Page and Test Selecting Page),Teams Page,Read_Me File   
 
 #### Ezgi Maden
 
