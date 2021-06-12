@@ -42,7 +42,7 @@ npm install --save react-toastify
 npm start
 
 ## USING ADDITIONAL LIBRARIES
-As a team, we did use additional library to beautify visually. We use react-icons and toastify libraries for tic-tac-toe game. Also, we use reactstrap library for designing pages. 
+As a team, we did use additional library to beautify visually. We used react-icons and toastify libraries for tic-tac-toe game. Also, we used reactstrap library for designing pages. In addition to these, we used json-server for fake REST API.
 
 ## USE CASE DIAGRAM
 ![image](https://user-images.githubusercontent.com/80036646/121782821-275ead00-cbb4-11eb-82a8-3f4edb0a1d9a.png)
