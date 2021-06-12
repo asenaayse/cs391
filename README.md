@@ -26,13 +26,13 @@ Muratcan Kilicci
 ## WORK SHARING 
 
 #### Muratcan Kilicci 
-Creating game, Horoscope Page, Data Management 
+Creating game, Horoscope Page, Server API
 
 #### Asena Ayse Gevsek 
 Learn My Sign  Page,"How to Run" at Read_Me, Organizing CSS 
 
 #### Ecenur Kamburoglu
-
+Creating game, Horoscope Page, Server API
 
 #### Kaan Apak
 Creating Test Pages ( 3 Test Page and Test Selecting Page),Teams Page,Read_Me File   
