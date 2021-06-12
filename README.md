@@ -27,7 +27,7 @@ Creating game, Horoscope Page, Server API
 Creating Test Pages ( 3 Test Page and Test Selecting Page),Teams Page,Read_Me File   
 
 #### Ezgi Maden
-
+Designing Main Page, Sign In-Up Pages, Routers, Implementing components that was created by teammates into the project.
 
 ## HOW TO RUN PROJECT 
 First, install json server and axios by running the following commands on cmd:
@@ -37,10 +37,12 @@ On terminal, go to fake-server folder and run "json-server --watch db.json" comm
 "local.host3000" address must appear, copy and paste it  to your browser. Now you are connected to the fake server.
 Then, go to VsCode, right click on App.js, select "open with integrated terminal" and run the following commands:
 npm install
+npm install react-icons --save
+npm install --save react-toastify
 npm start
 
 ## USING ADDITIONAL LIBRARIES
-As a team, we did not use any additional library. The layout was simple enough not to use any additional library. 
+As a team, we did use additional library to beautify visually. We use react-icons and toastify libraries for tic-tac-toe game. Also, we use reactstrap library for designing pages. 
 
 ## USE CASE DIAGRAM
 ![image](https://user-images.githubusercontent.com/80036646/121782821-275ead00-cbb4-11eb-82a8-3f4edb0a1d9a.png)
